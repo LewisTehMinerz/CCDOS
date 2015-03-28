@@ -1,4 +1,7 @@
 _G.CCDOS = {
+  [ "ERROR" ] = function( err )
+    error( "CC-DOS ERROR >>> " .. err, 0 )
+  end,
   [ "PARTITION" ] = {
     [ "MASTER" ]  = {
       [ "PRIMARY_DOS_PARTITION" ] = true,
