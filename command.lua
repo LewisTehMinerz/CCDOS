@@ -9,6 +9,12 @@ _G.CCDOS = {
   },
 }
 
-if not fs.exists( "PARTITIONS/MASTER/PRIMARY_DOS_PARTITION/DOS" ) then fs.create( "/PARTITIONS/MASTER/PRIMARY_DOS_PARTITION/DOS" ) end
+
+
+
+
+if not partitionmanager.partitionExists( "PRIMARY_DOS_PARTITION" ) then
+  partitionmanager.createPartition( "PRIMARY_DOS_PARTITION" )
+end
 
 shell.run( "AUTO" )
