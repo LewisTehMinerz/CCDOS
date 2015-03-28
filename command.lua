@@ -13,4 +13,4 @@ if not partitionmanager.partitionExists( "DOS" ) then
 end
 
 shell.run( "AUTO" )
-
+partitionmanager.gotoPartition( "DOS" )
