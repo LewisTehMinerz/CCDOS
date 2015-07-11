@@ -1,3 +1,5 @@
+
+-------- ENVIRONMENT CHECKS (DON'T REMOVE) --------
 print( "CC-DOS for ComputerCraft starting..." )
 print()
 print()
