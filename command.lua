@@ -7,7 +7,7 @@ _G.CCDOS = {
     os.loadAPI( f )
   end,
   [ "LOAD_PLUGIN" ] = function( p )
-    print( "CC-DOS >>> " .. p .. " is type plugin. For the plugin to work, you must load it. Allow action? (Read up on the dangers of plugins @ http://www.github.com/LewisTehMinerz/CCDOS/PluginDanger.md)" )
+    print( "CC-DOS >>> " .. p .. " is type plugin. For the plugin to work, you must load it. Allow action? (Read up on the dangers of plugins @ https://github.com/LewisTehMinerz/CCDOS/blob/master/PluginDanger.md)" )
     write( "CC-DOS >>> " )
     i = read()
     if i:lower() == "y" then
