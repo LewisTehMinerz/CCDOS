@@ -11,9 +11,9 @@ _G.CCDOS = {
     write( "CC-DOS >>> " )
     i = read()
     if i:lower() == "y" then
-      print( "CC-DOS >>> Loading plugin..." )
+      print( "CC-DOS >>> Running plugin..." )
       dofile( p )
-      print( "CC-DOS >>> Plugin loaded." )
+      print( "CC-DOS >>> Plugin finished." )
     elseif i:lower() == "n" then
       print( "CC-DOS >>> Plugin has not been loaded." )
     else
